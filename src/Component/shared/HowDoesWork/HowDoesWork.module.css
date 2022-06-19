@@ -1,0 +1,73 @@
+.HowDoesWorkTop{
+    width: 90%;
+    margin: auto;
+    max-width: 1266px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.HowDoesWorkTop h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.HowDoesWorkTop .row{
+    display: flex;
+    justify-content: space-between;
+}
+.HowDoesWorkTop .row .left,
+.HowDoesWorkTop .row .center,
+.HowDoesWorkTop .row .right{
+    width: 32%;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #EEFBF3;
+}
+
+.HowDoesWorkTop .row .left div,
+.HowDoesWorkTop .row .center div,
+.HowDoesWorkTop .row .right div{
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.HowDoesWorkTop .row .left h1,
+.HowDoesWorkTop .row .center h1,
+.HowDoesWorkTop .row .right h1{
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0px;
+}
+.HowDoesWorkTop .row .left p,
+.HowDoesWorkTop .row .center p,
+.HowDoesWorkTop .row .right p{
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 650;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media screen and (max-width:992px){
+    .HowDoesWorkTop .row{
+        flex-wrap: wrap;
+    }
+    .HowDoesWorkTop .row .left,
+.HowDoesWorkTop .row .center,
+.HowDoesWorkTop .row .right{
+    width: 48%;
+    margin-bottom: 30px;
+}
+} 
+@media screen and (max-width:720px){
+    .HowDoesWorkTop .row .left,
+    .HowDoesWorkTop .row .center,
+    .HowDoesWorkTop .row .right{
+        width: 100%;
+    }
+}

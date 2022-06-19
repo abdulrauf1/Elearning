@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.CousreCardTop {
+  width: 280px;
+  border: 2px solid #309255;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 28px;
+}
+
+.CousreCardTop .CousreCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.CousreCardTop .CousreCardHeader .left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.CousreCardTop .CousreCardHeader .right {
+  width: 50%;
+  display: flex;
+}
+.CousreCardTop .CousreCardHeader .left img {
+  width: 100%;
+  border-radius: 5px;
+}
+.CousreCardTop .CousreCardHeader .right {
+  justify-content: end;
+  position: relative;
+}
+.CousreCardTop .CousreCardHeader .right .menuDel img {
+  width: 20px;
+  height: 20px;
+}
+.CousreCardTop .CousreCardHeader .right .menuDel {
+  text-align: end;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  background-color: #309255;
+  height: 30px;
+}
+.CousreCardTop .CousreCardHeader .right .actions {
+  position: absolute;
+  right: 30px;
+  width: 180px;
+  
+}
+.CousreCardTop .CousreCardHeader .right .actions p {  
+}
+.CousreCardTop .CousreCardHeader .right .actions p:hover {  
+}
+.CousreCardTop .CousreCardHeader .right h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #309255;
+}
+.CousreCardTop .courseInstructor {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.CousreCardTop .courseInstructor img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.CousreCardTop .courseInstructor h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #959494;
+}
+.CousreCardTop h3 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  color: #309255;
+}
+.CousreCardTop p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+.CousreCardTop .count {
+  margin: 20px 0px;
+  display: flex;
+}
+.CousreCardTop .count .student,
+.CousreCardTop .count .lecture {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.CousreCardTop .count .student h4,
+.CousreCardTop .count .lecture h4 {
+  margin-left: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.CousreCardTop .learnDetails {
+  padding: 10px 15px;
+  background: transparent;
+  border: 1px solid #959494;
+  border-radius: 5px;
+  color: #959494;
+  cursor: pointer;
+}

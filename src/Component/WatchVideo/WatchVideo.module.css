@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,600&display=swap");
+.watchVideoTop {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #eefbf3;
+  }
+  
+  .watchVideoTop .watchVideoTopInner {
+    width: 90%;
+    margin: auto;
+    max-width: 1266px;
+  }
+  
+  .watchVideoTop .watchVideoTopInner p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .watchVideoTop .watchVideoTopInner h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+
+
+  .videoTop{
+      width: 100%;
+      max-width: 2266px;
+      border: 4px solid black;      
+  }
+
+  .videoTop .watchVideo{
+      width: 100%;
+      overflow: hidden;
+  }
+  .videoTop .watchVideo .Video{
+      width: 100%;
+      height:500px;
+  }
+   
+  @media screen and (max-width:992px){
+    .videoTop{
+      flex-wrap: wrap;
+    }
+
+  .videoTop .watchVideo{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.videoTop .watchVideo .Video{
+  width: 100%;
+  height:400px;
+}
+ .videoTop .listVideo{
+    width: 100%;
+    border: 1px solid green;
+}
+
+  }

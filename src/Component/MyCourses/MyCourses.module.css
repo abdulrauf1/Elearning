@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,600&display=swap");
+.myCoursesTop {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-color: #eefbf3;
+}
+
+.myCoursesTop .myCoursesInner {
+  width: 90%;
+  margin: auto;
+  max-width: 1266px;
+}
+
+.myCoursesTop .myCoursesInner p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.myCoursesTop .myCoursesInner h1 {
+  font-size: 40px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.myCourse{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1266px;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 90px auto;
+}
+
+
+
+@media screen and (max-width:992px){
+  .myCourse{
+    justify-content: space-around;
+  }
+}

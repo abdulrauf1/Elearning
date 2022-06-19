@@ -1,0 +1,78 @@
+.LoginTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border: 1px solid #EEFBF3;
+    border-radius: 5px;
+    
+}
+
+.emailError{
+    color: red;
+}
+
+.LoginTop .left{
+    width: 45%;
+    padding-top: 40px;
+}
+
+.LoginTop .left{
+    background-color: #EEFBF3;
+    border-radius: 5px;
+}
+.LoginTop .left img{
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+.LoginTop .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.LoginTop .right .rightInner{
+  width: 80%;
+  margin: auto;
+}
+.LoginTop .right .rightInner h1{
+    margin: 20px 0px;
+}
+.LoginTop .right .rightInner input{
+    display: block;
+    padding: 10px ;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #EEFBF3;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+.LoginTop .right .rightInner .loginBtn{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #309255;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #309255;
+  cursor: pointer;
+}
+.LoginTop .right .rightInner p{
+    margin: 20px 0px;
+}
+
+@media screen and (max-width:992px){
+    .LoginTop{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .LoginTop .left,
+    .LoginTop .right{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

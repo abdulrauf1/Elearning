@@ -1,0 +1,36 @@
+.card{
+    padding: 15px;
+    background-color: #EEFBF3;
+    border-radius: 5px;
+    width: 24%;
+    margin: 10px 0px;
+}
+.card .codeIcon{
+  background-color: #309255;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.card h2{
+    margin: 15px 0px;
+    font-weight: 600;
+}
+.card p{
+    color: #C1A194;
+    font-size: large;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1000px){
+    .card{
+        width: 48%;
+    }
+}
+@media screen and (max-width:669px){
+    .card{
+        width: 100%;
+    }
+}

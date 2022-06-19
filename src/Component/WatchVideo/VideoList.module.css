@@ -1,0 +1,30 @@
+
+ .list{
+    padding: 10px 10px;
+    display: flex;
+    cursor: pointer;
+    background-color: #eefbf3;
+   }
+  .list:hover{
+       background-color: #fff;
+   }
+  .list input{
+       margin-right: 10px;
+   }
+ 
+  .list .title{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+  .list .title span img{
+       width: 15px;
+       height: 15px;
+       margin-right: 5px;
+   }
+  .list .title span{
+       display: flex;
+       opacity: 0.6;
+       margin-top: 10px;
+       align-items: center;
+   }

@@ -1,0 +1,91 @@
+.allCoursesTop{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #EEFBF3;
+ 
+}
+
+.allCoursesTop .allCoursesInner{
+  width: 90%;
+  margin: auto;
+  max-width: 1266px;
+}
+
+
+.allCoursesTop .allCoursesInner p{
+  font-size:25px ;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.allCoursesTop .allCoursesInner h1{
+  font-size: 40px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* show all courses data section start here  ==============================*/
+.showAllCoursesTop{
+  margin: 190px auto 50px auto;
+  width: 90%;
+  max-width: 1266px;
+
+}
+.showAllCoursesTop .showAllCoursesHeader{
+  width: 100%;
+  background-color: #EEFBF3;
+  display: flex;
+  
+  cursor: pointer;
+}
+
+.showAllCoursesTop .showAllCoursesHeader h3{
+  padding: 10px 15px;
+  border-bottom: 2px solid #EEFBF3;
+}
+.showAllCoursesTop .showAllCoursesHeader h3:hover{
+  color:#309255;
+  border-bottom: 2px solid #309255;
+}
+
+
+
+/* course content start here ========================= */
+.showAllCoursesTop .allCoursesContentTop{
+   width: 100%;
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.showAllCoursesTop .allLoadBtn{
+  padding: 15px 65px;
+  display: block;
+  margin: auto;
+  background-color: #309255;
+  color: #fff;
+  border: 1px solid #309255;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* .showAllCoursesTop .allCoursesContentTop .CousreCardTop{
+  width: ;
+} */
+
+
+@media screen and (max-width:992px){
+  .showAllCoursesTop .allCoursesContentTop{
+    justify-content: space-around;
+  }
+  .showAllCoursesTop .showAllCoursesHeader{
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,600&display=swap');
+.faqTopHeader{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #EEFBF3;
+}
+
+.faqTopHeader .faqTopHeaderInner{
+  width: 90%;
+  margin: auto;
+  max-width: 1266px;
+  
+}
+
+.faqTopHeader .faqTopHeaderInner p{
+  font-size:25px ;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.faqTopHeader .faqTopHeaderInner h1{
+  font-size: 40px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.faqTop{
+    width: 90%;
+    max-width: 1266px;
+    margin:100px auto ;
+}
+
+.faqTop .faqQuestion{
+    width: 100%;
+    border: 1px solid #EEFBF3;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px 0px;
+}
+.faqTop .faqQuestion h2{
+    font-size:25px ;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.faqTop .faqQuestion p{
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}

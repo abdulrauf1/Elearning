@@ -1,0 +1,15 @@
+.blogTop{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    background-color: #EEFBF3;
+}
+
+.blogTop .blogInner{
+  width: 90%;
+  margin: auto;
+  max-width: 1266px;
+  border: 1px solid red;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.HeaderTop{
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.HeaderTop .left .menuIcon{
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #309255;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+.HeaderTop .left .menuIcon img{
+  display: block;
+}
+.HeaderTopActive{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.HeaderTop .left{
+   display: flex;
+   align-items: center;
+}
+.HeaderTop .left .logo h1{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.HeaderTop .left a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight:bold;
+}
+
+.HeaderTop .left .menu a{
+    margin: 5px 15px;
+}
+.HeaderTop .left .menu .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #309255;
+    cursor: pointer;
+    display: none;
+}
+.HeaderTop .left .menu a:hover{
+    /* background-color: #309255; */
+    color: #309255;
+}
+.HeaderTop .left .menu.active{
+    left: 0px;
+}
+.HeaderTop .left a:hover,
+.HeaderTop .left a:active,
+.HeaderTop .left a.active{
+    color: #309255;
+}
+
+.HeaderTop .right{
+  display: flex;
+  align-items: center;
+}
+.HeaderTop .right .signIn{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.HeaderTop .right .signUp{
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #fff;
+    border: 1px solid #309255;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:992px){
+    .HeaderTop .left .menu a:hover{
+        background-color: #309255;
+        color: #fff;
+    }
+    .HeaderTop .left .menu{
+        /* display: none; */
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        bottom: 0px;
+        width: 90%;
+        max-width: 400px;
+        background-color: #fff;
+        z-index: 100;
+        transition: 0.4s;
+        margin-right: -100%;
+    }
+    .HeaderTop .left .menuIcon{
+        display: block;
+    }
+    .HeaderTop .left a:hover,
+.HeaderTop .left a:active,
+.HeaderTop .left a.active{
+    background-color: #309255;
+    color: #fff;
+}
+.HeaderTop .left .menu{
+    padding-top: 80px;
+}
+.HeaderTop .left .menu a{
+    display: block;
+    padding: 15px 20px;
+}
+.HeaderTop .left .menu .close{
+    display: block;
+}
+}
+
+@media screen and (max-width:669px){
+    .HeaderTop .right .signIn,
+    .HeaderTop .right .signUp{
+        padding: 10px 15px;
+    }
+    .HeaderTop .left .menu a:hover{
+        background-color: #309255;
+        color: #fff;
+    }
+}

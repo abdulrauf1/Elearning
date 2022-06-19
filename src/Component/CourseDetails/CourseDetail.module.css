@@ -1,0 +1,189 @@
+.courseDetailTop{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #EEFBF3;
+}
+.courseDetailTop .courseDetailInner{
+  width: 90%;
+  margin: auto;
+  max-width: 1266px;
+}
+
+.courseDetailTop .courseDetailInner p{
+  font-size:25px ;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.courseDetailTop .courseDetailInner h1{
+  font-size: 40px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* courseDetail section here ================== */
+.courseDetail{
+  width: 90%;
+  max-width: 1266px;
+  margin:190px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.courseDetail .left{
+   width: 70%;
+  
+}
+/* media player section start here ======================= */
+.courseDetail .left .mediaPlayer{
+  width: 100%;
+  
+}
+.courseDetail .left .mediaPlayer .Video{
+  width: 100%;
+  height: 500px;
+}
+
+
+.courseDetail .left .courseDescription h2{
+ margin: 25px 0px;
+}
+
+.courseDetail .left .courseDescription span{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.courseDetail .left .courseDescription span img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.courseDetail .left .courseDescription span p{
+  color: rgb(173, 172, 172);
+}
+
+
+.courseDetail .left .courseDescription .tabs{
+  display: flex;
+  align-items: center;
+  background-color: #EEFBF3;
+
+}
+
+.enrollButton{
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #309255;
+  border: 1px solid #309255;
+  cursor: pointer;
+}
+
+
+.courseDetail .left .courseDescription .tabs div{
+  padding: 10px;   
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight:bold;
+  cursor: pointer;
+  /* border-bottom: 2px solid #EEFBF3; */
+ 
+}
+.courseDetail .left .courseDescription .tabs div:hover{
+  color: #309255;
+}
+
+.courseDetail .left .courseDescription .findActive{
+  color: #309255;
+  border-bottom: 2px solid #309255;
+}
+
+.courseDetail .left .courseDescription .courseDetailContent .tabContent{
+  display: none;
+  transition: 0.3s;
+  margin: 20px 0px;
+
+  border-radius: 5px;
+ 
+}
+.courseDetail .left .courseDescription .courseDetailContent .findActiveContent{
+  display: block;
+}
+
+.courseDetail .left .courseDescription .courseDetailContent .tabContent .instructorSect{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.courseDetail .right{
+  width: 25%;
+}
+
+.courseDetail .right{
+  padding: 10px;
+  background-color: #EEFBF3;
+  border-radius: 5px;
+  height: 450px;
+}
+.courseDetail .right h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.courseDetail .right a{
+  text-decoration: none;
+}
+.courseDetail .right div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #309255;
+}
+.courseDetail .right div p{
+  color: #309255;
+}
+.courseDetail .right .enroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #309255;
+  padding: 10px 5px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+@media screen and (max-width:992px){
+  .courseDetail{
+    flex-wrap: wrap;
+  }
+  .courseDetail .left .mediaPlayer .Video{
+    height: 400px;
+  }
+  .courseDetail .left{
+    width: 100%;
+     margin-bottom: 25px;
+ }
+ .courseDetail .right{
+width: 100%;
+}
+.courseDetail .left .courseDescription .courseDetailContent .tabContent .instructorSect{
+  flex-wrap: wrap;
+
+}
+}

@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/* subscribe section start here ========================= */
+
+
+.subscribe {
+  width: 90%;
+  margin: 80px auto;
+  max-width: 1266px;
+  background-color: #eefbf3;
+  padding: 70px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe .left,
+.subscribe .right {
+  width: 50%;
+}
+.subscribe .left h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subscribe .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .right .rightInner {
+  text-align: center;
+}
+.subscribe .right .rightInner input {
+  padding: 10px 15px;
+  margin: 15px 0px;
+  border: 1px solid #309255;
+  box-shadow: none;
+  width: 300px;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subscribe .right .rightInner button {
+  padding: 10px 25px;
+  background-color: #309255;
+  color: #fff;
+  border: 1px solid #309255;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* footer section start here =================== */
+
+.footerTop {
+  width: 100%;
+  background-color: #eefbf3;
+  padding: 25px 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.footerTop .footerInner {
+  width: 90%;
+  margin: auto;
+  max-width: 1266px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerTop .footerInner .logo,
+.footerTop .footerInner .subscribeF,
+.footerTop .footerInner .quickLinks,
+.footerTop .footerInner .category {
+  width: 25%;
+}
+
+.footerTop .footerInner .logo h2 {
+  margin: 10px 0px;
+}
+
+.footerTop .footerInner .logo .email {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+.footerTop .footerInner .logo .email a {
+  text-decoration: none;
+  color: #309255;
+}
+
+.footerTop .footerInner .logo .email img {
+  margin-right: 5px;
+}
+.footerTop .footerInner .logo .call {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.footerTop .footerInner .logo .call img {
+  margin-right: 5px;
+}
+.footerTop .footerInner .logo .call p {
+  color: #309255;
+}
+.footerTop .footerInner .logo .socialIcon {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.footerTop .footerInner .logo .socialIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+.footerTop .footerInner .category h2,
+.footerTop .footerInner .quickLinks h2,
+.footerTop .footerInner .subscribeF h2 {
+  margin-bottom: 25px;
+}
+
+.footerTop .footerInner .category p,
+.footerTop .footerInner .quickLinks p,
+.footerTop .footerInner .subscribeF p {
+  margin-bottom: 15px;
+}
+.footerTop .footerInner .quickLinks .link {
+  text-decoration: none;
+  color: #000;
+}
+.footerTop .footerInner .category a{
+  text-decoration: none;
+}
+
+.footerTop .footerInner .subscribeF input {
+  padding: 13px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+.footerTop .footerInner .subscribeF .subBtn {
+  padding: 13px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #309255;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.errorMsg {
+  color: red;
+}
+.alerts {
+  width: 90%;
+  margin: 80px auto;
+  max-width: 1266px;
+  background-color: #eefbf3;
+  padding: 70px;
+  border-radius: 5px;
+  
+  align-items: center;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .footerTop .footerInner {
+    flex-wrap: wrap;
+  }
+  .footerTop .footerInner .logo,
+  .footerTop .footerInner .subscribeF,
+  .footerTop .footerInner .quickLinks,
+  .footerTop .footerInner .category {
+    width: 48%;
+    margin-bottom: 50px;
+  }
+  .subscribe {
+    flex-wrap: wrap;
+  }
+  .subscribe .left {
+    text-align: center;
+  }
+  .subscribe .left,
+  .subscribe .right {
+    width: 100%;
+    margin-bottom: 25px;
+  } .subscribe .left h1{
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 569px) {
+  .footerTop .footerInner .logo,
+  .footerTop .footerInner .subscribeF,
+  .footerTop .footerInner .quickLinks,
+  .footerTop .footerInner .category {
+    width: 96%;
+    text-align: center;
+  }
+  .subscribe .left h1{
+      font-size: 18px;
+  }
+  .footerTop .footerInner .logo .email{
+    justify-content: center;
+  }
+  .footerTop .footerInner .logo .call{
+    justify-content: center;
+  }
+  .footerTop .footerInner .logo .socialIcon{
+    justify-content: center;
+  }
+}

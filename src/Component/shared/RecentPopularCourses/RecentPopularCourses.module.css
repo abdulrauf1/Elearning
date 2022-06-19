@@ -1,0 +1,35 @@
+.RecentPopularTop{
+    width: 90%;
+    margin: auto;
+    max-width: 1266px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.RecentPopularTop .recentPopularHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RecentPopularTop .recentPopularHeader h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.RecentPopularTop .recentPopularHeader .viewAllBtn{
+    padding: 10px 30px;
+    background-color: #309255;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.RecentPopularTop .categoryList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

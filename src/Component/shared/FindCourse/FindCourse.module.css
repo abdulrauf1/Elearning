@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.FindCourseTop{
+    width: 90%;
+    margin: auto;
+    max-width: 1266px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.FindCourseTop .FindCourseHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FindCourseTop .FindCourseHeader h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.FindCourseTop .FindCourseHeader .viewAllBtn{
+    padding: 10px 30px;
+    background-color: #309255;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.FindCourseTop .findCategory{
+    margin-top: 30px;
+    display: flex;
+    background-color: #EEFBF3;
+}
+.FindCourseTop .findCategory div{
+    padding: 10px 20px;   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.FindCourseTop .findCategory .findActive{
+    color: #309255;
+    border-bottom: 2px solid #309255;
+}
+
+
+
+/* tab content start here =============================== */
+.FindCourseTop .courseCategoryContent{
+    margin-top: 30px;
+}
+.FindCourseTop .courseCategoryContent .tabContent{
+   display: none;
+   transition: 0.3s;
+}
+.FindCourseTop .courseCategoryContent .tabContent .allCourses,
+.FindCourseTop .courseCategoryContent .tabContent .development,
+.FindCourseTop .courseCategoryContent .tabContent .dataScience,
+.FindCourseTop .courseCategoryContent .tabContent .engineering,
+.FindCourseTop .courseCategoryContent .tabContent .designing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.FindCourseTop .courseCategoryContent .findActiveContent{
+    display: block;
+}
+
+@media screen and (max-width:992px){
+    .FindCourseTop .FindCourseHeader h3{
+        font-size: 18px;
+    }
+    .FindCourseTop .FindCourseHeader .viewAllBtn{
+        padding: 10px 20px;
+    }
+    .FindCourseTop .findCategory div{
+    font-weight: normal;
+    padding: 10px 15px;
+    }
+    .FindCourseTop .courseCategoryContent .tabContent .allCourses,
+.FindCourseTop .courseCategoryContent .tabContent .development,
+.FindCourseTop .courseCategoryContent .tabContent .dataScience,
+.FindCourseTop .courseCategoryContent .tabContent .engineering,
+.FindCourseTop .courseCategoryContent .tabContent .designing{
+    justify-content: space-around;
+}
+}
+
+@media screen and (max-width:669px){
+    .FindCourseTop .findCategory{
+        flex-wrap: wrap;
+    }
+    .FindCourseTop .FindCourseHeader h3{
+        font-size: 15px;
+    }
+}
